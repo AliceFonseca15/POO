@@ -1,0 +1,5 @@
+print("Qual o seu nome?")
+a = input()
+print("Qual a sua idade?")
+idade = int(input())
+print("Olá",a,"!","," "Você tem", idade, "anos")
