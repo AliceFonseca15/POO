@@ -1,2 +1,2 @@
 # POO
-Repositório da disciplina de POO
+Repositório da disciplina de POO - Segundo semestre
