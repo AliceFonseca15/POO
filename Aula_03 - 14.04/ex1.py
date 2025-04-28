@@ -1,3 +1,4 @@
+#Faça um codigo que mostre todos os numeros menores que X: (Não finalizado)
 def chama(num):
     num1 = 0
     if num1 == num:
