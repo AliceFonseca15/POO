@@ -1,0 +1,1 @@
+x = int() # int *x = new int; no c++
