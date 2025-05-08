@@ -6,12 +6,12 @@ class bingo():
     def construtor(self,b):
         self.__numBolas = b   
     def proximo(self):
-        s = len(self.__bolas)
+        s = self.__numBolas
         a = random.choice(s)
         if a not in self.__bolas:
             return self.__bolas.append(a)
     def sorteados(self):
-        for i in range(0,len(self.__bolas)):
+        for i in self.__bolas:
             print(i,"foi sorteada")
     def __str__(self):
         return f"Esse {self.__bolas} foram sorteados"
