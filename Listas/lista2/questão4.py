@@ -5,12 +5,10 @@ class cinema():
         self.__preco = 0
     def set_dia(self,d):
         self.__dia = d
-        return self.__dia
     def get_dia(self):
         return self.__dia
     def set_horario(self,h):
         self.__horario = h
-        return self.__horario
     def get_horario(self):
         return self.__horario
     def set_preco(self,v):
@@ -51,4 +49,4 @@ horario = input()
 
 x.set_dia(dia)
 x.set_horario(horario)
-print("Sua sessão é",x.get_dia,"e o valor do ingresso é",x.get_preco)
+print("Sua sessão é",dia,"e o valor do ingresso é",x.get_preco)
