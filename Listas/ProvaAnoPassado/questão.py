@@ -1,5 +1,5 @@
 from datetime import datetime
-class atletas():
+class atleta():
     def __init__(self):
         self.__nome = ""
         self.__id = 0
@@ -12,7 +12,7 @@ class atletas():
         nascimento = input("Digite sua data de nascimento no formato dd/mm/yy:")
         nascimento1 = datetime.strptime(nascimento, "%d/%m/%y").date()
         self.__nascimento = nascimento1
-    def Tostring(self):
+    def __string__(self):
         print("Nome do atleta:")
         print(self.__nome)
         print("Identificador do atleta:")
@@ -64,9 +64,9 @@ class treino():
         print(f"Seu pace correndo {self.__distancia}km em {self.__tempo} é {self.__pace}min/km")
         print("Data de nascimento:")
 
-x = atletas()
+x = atleta()
 x.construtor()
-x.Tostring()
+x.__string__()
 x1 = treino ()
 x1.construto()
 x1.pace()
